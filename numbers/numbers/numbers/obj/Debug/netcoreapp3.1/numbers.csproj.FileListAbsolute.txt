@@ -1,0 +1,13 @@
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.exe
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.deps.json
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.runtimeconfig.json
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.runtimeconfig.dev.json
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.dll
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\bin\Debug\netcoreapp3.1\numbers.pdb
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.csproj.AssemblyReference.cache
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.AssemblyInfoInputs.cache
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.AssemblyInfo.cs
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.csproj.CoreCompileInputs.cache
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.dll
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.pdb
+C:\Users\kilin\Documents\qlows\c#\prax\numbers\numbers\numbers\obj\Debug\netcoreapp3.1\numbers.genruntimeconfig.cache
