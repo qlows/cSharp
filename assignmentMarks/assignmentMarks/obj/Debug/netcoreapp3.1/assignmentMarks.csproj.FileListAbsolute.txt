@@ -1,0 +1,12 @@
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.exe
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.deps.json
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.runtimeconfig.json
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.runtimeconfig.dev.json
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.dll
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\bin\Debug\netcoreapp3.1\assignmentMarks.pdb
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.AssemblyInfoInputs.cache
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.AssemblyInfo.cs
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.csproj.CoreCompileInputs.cache
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.dll
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.pdb
+C:\Users\kilin\Documents\qlows\c#\assignmentMarks\assignmentMarks\obj\Debug\netcoreapp3.1\assignmentMarks.genruntimeconfig.cache
