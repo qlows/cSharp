@@ -1,0 +1,12 @@
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.exe
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.deps.json
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.runtimeconfig.json
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.runtimeconfig.dev.json
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.dll
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\bin\Debug\netcoreapp3.1\averageOfOddEven.pdb
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.AssemblyInfoInputs.cache
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.AssemblyInfo.cs
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.csproj.CoreCompileInputs.cache
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.dll
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.pdb
+C:\Users\kilin\Documents\qlows\c#\averageOfOddEven\averageOfOddEven\obj\Debug\netcoreapp3.1\averageOfOddEven.genruntimeconfig.cache
