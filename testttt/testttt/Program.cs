@@ -9,7 +9,7 @@ namespace COMP1202_S20_Assg1_101232721
         {
             string quizQuestions(int i)
             {
-                string[] questions =
+                string[] questions = //sorular
                 {
                     "Q1 - Who is the Divine Comedy's author??",
                     "Q2 - What is the foundation of Lighhouse of Alexandria?",
@@ -17,7 +17,7 @@ namespace COMP1202_S20_Assg1_101232721
                     "Q4 - Who is the architect of Guggenheim Museum in Spain, Bilbao?",
                     "Q5 - Who is the painter of The Storm on the Sea of Galilee?"
                 };
-                return questions[i]; // write questions
+                return questions[i]; // write questions //cevaplari
                 {
                     string quizAnswers(int i)
                     {
@@ -40,7 +40,7 @@ namespace COMP1202_S20_Assg1_101232721
                     }
                     Boolean validateInput(string answer, string correctAnswer)
                     {
-                        //For question answers
+                        //For question answers //sorularin cevaplarini dogru ya da degil mi diye kontrol ediyor
 
                         if (answer.Equals("a") || answer.Equals("b") || answer.Equals("c") || answer.Equals("d"))
                         {
@@ -52,7 +52,7 @@ namespace COMP1202_S20_Assg1_101232721
                             return false;
                         }
                     }
-                }
+                }// burdan sonra sacmaladim. puanlamayi yapmaya calistim. Basaramadim.
                 int outPut()
                 {
                     int marks = 0;
