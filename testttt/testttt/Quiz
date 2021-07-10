@@ -1,0 +1,99 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        private static int _score;
+        private static int _attempt = 0;
+
+        public static int CorrectAnswer;
+
+        public static void GetCorrectAnswer(int correct)
+        { 
+            bool incorrect = true;
+
+            while (incorrect && _attempt <= 3)
+            {
+
+                int answer = Convert.ToInt32(Console.ReadLine());
+                if (answer == correct)
+                {
+                    incorrect = false;
+                    Console.WriteLine("Correct Answer");
+                }
+                else { Console.WriteLine("Try Again"); }
+
+                _attempt++;
+            }
+            switch (_attempt)
+            {
+                case 1:
+                    _score = _score + 20;
+                    break;
+                case 2:
+                    _score = _score + 10;
+                    break;
+                case 3:
+                    _score = _score + 5;
+                    break;
+                case 4:
+                    _score = _score + 0;
+                    break;
+                default:
+                    break;
+            } 
+        }
+
+        public static void QuestionOne()
+        {
+            _attempt = 0;
+            Console.Write("Q1 - Who is the Divine Comedy's author??\n1)Dante Alighieri 2)Giovanni Boccaccio 3)Beatrice Portinari 4)Francesco Petrarca\n");
+            GetCorrectAnswer( CorrectAnswer=1 );
+            
+        }
+        public static void QuestionTwo()
+        {
+            _attempt = 0;
+            Console.Write("Q2 - What is the foundation of Lighthouse of Alexandria?\n1)Marble 2)Stone 3)Wood 4)Concrete\n");
+            GetCorrectAnswer(CorrectAnswer = 2);
+
+        }
+        public static void QuestionThree()
+        {
+            _attempt = 0;
+            Console.Write("Q3 - Where is Sistine Chapel ceiling located at?\n1)Italy 2)France 3)Vatican City 4)Morocco\n");
+            GetCorrectAnswer(CorrectAnswer = 3);
+
+        }
+        public static void QuestionFour()
+        {
+            _attempt = 0;
+            Console.Write("Q4 - Who is the architect of Guggenheim Museum in Spain, Bilbao?\n1)Frank L. Wright 2)Frank Gehry 3)Philip Johnson 4)Zaha Hadid\n");
+            GetCorrectAnswer(CorrectAnswer = 4);
+
+        }
+        public static void QuestionFive()
+        {
+            _attempt = 0;
+            Console.Write("Q5 - Who is the painter of The Storm on the Sea of Galilee?\n1)Caravaggio 2)Peter Paul Rubens 3)Vincent van Gogh 4)Rembrandt van Rijn\n");
+            GetCorrectAnswer(CorrectAnswer = 1);
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            QuestionOne();
+            QuestionTwo();
+            QuestionThree();
+            QuestionFour();
+            QuestionFive();
+
+            Console.WriteLine("Score: " + _score);
+
+            Console.ReadKey();
+
+        }
+    }
+}
