@@ -1,0 +1,14 @@
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.csproj.AssemblyReference.cache
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.GeneratedMSBuildEditorConfig.editorconfig
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.AssemblyInfoInputs.cache
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.AssemblyInfo.cs
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.csproj.CoreCompileInputs.cache
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.exe
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.deps.json
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.runtimeconfig.json
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.runtimeconfig.dev.json
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.dll
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\bin\Debug\netcoreapp3.1\mockexam.pdb
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.dll
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.pdb
+D:\.SCHOOL\sem3\oop\prac\mockexam\mockexam\obj\Debug\netcoreapp3.1\mockexam.genruntimeconfig.cache
