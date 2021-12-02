@@ -1,0 +1,5 @@
+D:\.SCHOOL\sem3\oop\oopAssignment\oopAssignment\obj\Debug\net5.0\oopAssignment.csproj.AssemblyReference.cache
+D:\.SCHOOL\sem3\oop\oopAssignment\oopAssignment\obj\Debug\net5.0\oopAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\.SCHOOL\sem3\oop\oopAssignment\oopAssignment\obj\Debug\net5.0\oopAssignment.AssemblyInfoInputs.cache
+D:\.SCHOOL\sem3\oop\oopAssignment\oopAssignment\obj\Debug\net5.0\oopAssignment.AssemblyInfo.cs
+D:\.SCHOOL\sem3\oop\oopAssignment\oopAssignment\obj\Debug\net5.0\oopAssignment.csproj.CoreCompileInputs.cache
