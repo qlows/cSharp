@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -111,16 +111,16 @@ namespace oopAssignment
                 switch (input)
                 {
                     case 1:
-                        // add flight function
+                        addFlight();
                         break;
                     case 2:
-                        // view flight function
+                        viewFlight();
                         break;
                     case 3:
                         // view specific flight function
                         break;
                     case 4:
-                        // delete flight
+                        deleteFlight();
                         break;
                     case 5:
                         mainMenu();
