@@ -58,8 +58,8 @@ namespace oopAssignment
         {
             if (numberOfFlights <= maxFlights)
             {
-                Random rnd = new Random();
-                int id = rnd.Next(10000, 99999);
+                Random randomFlight = new Random();
+                int id = randomFlight.Next(10000, 99999);
                 flightList[numberOfFlights] = new Flight(fn, or, dest, mSeats);
                 numberOfFlights++;
                 return true;
@@ -78,6 +78,21 @@ namespace oopAssignment
                 }
             }
             return s;
+        }
+
+        public int findParticularFlight(int flightID)
+        {
+            for(int i = 0; i < maxFlights; i++)
+            {
+                if (flightList[i].getFlightNumber() == flightID);
+                return i;
+            }
+            return -1;
+        }
+
+        public bool deleteFlight(int flightID)
+        {
+            int finder = findParticularFlight
         }
 
        /* public string viewParticularFlight()
