@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 namespace oopAssignment
 {
     class classMenu
+
     {
+        Manager m = new Manager();
         public void mainMenu()
         {
             int input;
             bool error;
+            
+
 
             Console.Clear();
             Console.WriteLine("XYZ Airlines Limited.");
@@ -108,19 +112,39 @@ namespace oopAssignment
                 error = false;
                 input = Convert.ToInt32(Console.ReadLine());
 
+                
                 switch (input)
                 {
                     case 1:
-                        addFlight();
+                        Console.Clear();
+                        int flightNum;
+                        string origin;
+                        string destination;
+                        int numSeats;
+                        Console.WriteLine("Adding new flight...\nPlease enter the following:");
+                        Console.Write("Flight Number: ");
+                        flightNum = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Flight Origin: ");
+                        origin = Console.ReadLine();
+                        Console.Write("Flight Destination: ");
+                        destination = Console.ReadLine();
+                        Console.Write("Number of Seats: ");
+                        numSeats = Convert.ToInt32(Console.ReadLine());
+                        m.addFlight(flightNum, origin, destination, numSeats);
+                        Console.WriteLine("\nPress any key to go back to the Flight Menu...");
+                        Console.ReadKey();
+                        flightMenu();
                         break;
                     case 2:
-                        viewFlight();
+                        //View all flights
+                        Console.WriteLine(m.viewAllFlights());
                         break;
                     case 3:
-                        // view specific flight function
+                       /* findParticularFlight();*/
                         break;
                     case 4:
-                        deleteFlight();
+                        /*int delete;
+                        deleteFlight();*/
                         break;
                     case 5:
                         mainMenu();
