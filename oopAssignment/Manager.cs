@@ -92,13 +92,11 @@ namespace oopAssignment
 
         public bool deleteFlight(int flightID)
         {
-            int finder = findParticularFlight
+            int finder = findParticularFlight(flightID);
+            if(finder == -1) { return false; }
+            flightList[finder] = flightList[numberOfFlights - 1];
+            numberOfFlights--;
+            return true;
         }
-
-       /* public string viewParticularFlight()
-        {
-            string s = "=== Viewing Particular Flight ===\n";
-
-        }*/
     }
 }
