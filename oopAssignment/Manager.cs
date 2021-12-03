@@ -6,36 +6,48 @@ using System.Threading.Tasks;
 
 namespace oopAssignment
 {
-    class Manager : classMenu
+    class Manager
     {
         private oopAssignment.Customer[] clist;
-        private int numCustomer;
-        private int maxCustomer;
-
+        private oopAssignment.Booking[] blist;
         private oopAssignment.Flight[] flightList;
+        private int numberOfCustomer;
+        private int numberOfBookings;
+        private int numberOFlight;
+        private int maxBookings;
+        private int maxCustomer;
         private int numberOfFlights;
         private int maxFlights;
         private string flightNumber;
+        private int maxSeats;
+        private int numberOfSeats;
+
 
         public Manager()
         {
-            numCustomer = 0;
+            numberOfSeats = 0;
+            maxSeats = 1000;
+            numberOfCustomer = 0;
+            numberOfBookings = 0;
+            numberOfFlights = 0;
+            maxBookings = 99999;
+            maxFlights = 99999;
             maxCustomer = 100;
             clist = new Customer[maxCustomer];
 
-           maxFlights = 10;
+            maxFlights = 999999;
             numberOfFlights = 0;
             flightList = new Flight[numberOfFlights];
         }
 
         public bool addCustomer(string fnam, string lName, int phone)
         {
-            if (numCustomer < maxCustomer)
+            if (numberOfCustomer < maxCustomer)
             {
                 Random rnd = new Random();
                 int id = rnd.Next(10000, 99999);
                 clist[maxCustomer] = new Customer(id, fnam, lName, phone);
-                numCustomer++;
+                numberOfCustomer++;
                 return true;
             }
             return false;
@@ -44,7 +56,7 @@ namespace oopAssignment
         public string listAllCustomers()
         {
             string s = "=== Customer List ===\n";
-            for (int i = 0; i < numCustomer; i++)
+            for (int i = 0; i < numberOfCustomer; i++)
             {
                 if (clist[i].GetType() == typeof(Customer))
                 {
@@ -54,19 +66,27 @@ namespace oopAssignment
             return s;
         }
 
+        //Function to add flight
         public bool addFlight(int fn, string or, string dest, int mSeats)
         {
-            if (numberOfFlights <= maxFlights)
-            {
-                Random randomFlight = new Random();
-                int id = randomFlight.Next(10000, 99999);
-                flightList[numberOfFlights] = new Flight(fn, or, dest, mSeats);
-                numberOfFlights++;
-                return true;
-            }
-            return false;
+            flightList[maxSeats] = new Flight(fn, or, dest, mSeats);
+            maxSeats++;
+            return true;
         }
+        /* public bool addFlight(int fn, string or, string dest, int mSeats)
+         {
+             if (numberOfFlights <= maxFlights)
+             {
+                 Random randomFlight = new Random();
+                 int id = randomFlight.Next(10000, 99999);
+                 flightList[numberOfFlights] = new Flight(fn, or, dest, mSeats);
+                 numberOfFlights++;
+                 return true;
+             }
+             return false;
+         }*/
 
+        //Function to view all flights
         public string viewAllFlights()
         {
             string s = "=== All Flight List ===\n";
@@ -80,6 +100,7 @@ namespace oopAssignment
             return s;
         }
 
+        //Function to display a particular flight
         public int findParticularFlight(int flightID)
         {
             for(int i = 0; i < maxFlights; i++)
@@ -90,6 +111,7 @@ namespace oopAssignment
             return -1;
         }
 
+        //Function to delete flight
         public bool deleteFlight(int flightID)
         {
             int finder = findParticularFlight(flightID);
